@@ -6,19 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="/ckeditor/ckeditor.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
   <title>My Editor</title>
 </head>
 
 <body>
-  <form>
-    <h1>Welcome to my custom editor</h1>
-    <textarea name="editor1" id="editor1" rows="10" cols="80">
-        This will be replaced with CKeditor
-      </textarea>
-    <script>
-      CKEDITOR.replace('editor1');
-    </script>
-  </form>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <h1>Welcome to my custom editor</h1>
+        </div>
+        <hr>
+        </hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <ul class="nav nav-pills">
+          <li class="active">
+            <a href="#t1">First Tab</a>
+          </li>
+          <li>
+            <a href="#t2">Second Tab</a>
+          </li>
+        </ul>
+
+        <div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-12">
+        <form>
+          <textarea name="editor1" id="editor1" rows="10" cols="80">
+            This will be replaced with CKeditor
+          </textarea>
+          <script>
+            CKEDITOR.replace('editor1');
+          </script>
+        </form>
+      </div> -->
+  </div>
+  </div>
+
 </body>
 
 </html>
